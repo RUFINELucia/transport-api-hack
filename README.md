@@ -76,3 +76,7 @@ Le script produit un rapport JSON/texte listant :
 
 - Outil basique : ne remplace pas un scanner professionnel ou un pentest complet.
 - Doit être utilisé uniquement sur des cibles de test ou avec autorisation.
+
+## License
+
+MIT
