@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "api_file": "mock_api.json",
+    "base_url": "http://example.invalid",
+    "dry_run": true,
+    "methods_tested": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  "results": [
+    {
+      "path": "/v1/status",
+      "method": "GET",
+      "url": "http://example.invalid/v1/status",
+      "status_code": 200,
+      "reason": "SIMULATED OK",
+      "needs_auth": false,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/health",
+      "method": "GET",
+      "url": "http://example.invalid/v1/health",
+      "status_code": 200,
+      "reason": "SIMULATED OK",
+      "needs_auth": false,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/public/routes",
+      "method": "GET",
+      "url": "http://example.invalid/v1/public/routes",
+      "status_code": 200,
+      "reason": "SIMULATED OK",
+      "needs_auth": false,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/public/schedules",
+      "method": "GET",
+      "url": "http://example.invalid/v1/public/schedules",
+      "status_code": 200,
+      "reason": "SIMULATED OK",
+      "needs_auth": false,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/tickets/purchase",
+      "method": "POST",
+      "url": "http://example.invalid/v1/tickets/purchase",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/tickets/refund",
+      "method": "POST",
+      "url": "http://example.invalid/v1/tickets/refund",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/users/login",
+      "method": "POST",
+      "url": "http://example.invalid/v1/users/login",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/users/me",
+      "method": "GET",
+      "url": "http://example.invalid/v1/users/me",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/users/me",
+      "method": "PUT",
+      "url": "http://example.invalid/v1/users/me",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/admin/users",
+      "method": "GET",
+      "url": "http://example.invalid/v1/admin/users",
+      "status_code": 403,
+      "reason": "SIMULATED FORBIDDEN",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/admin/users",
+      "method": "POST",
+      "url": "http://example.invalid/v1/admin/users",
+      "status_code": 403,
+      "reason": "SIMULATED FORBIDDEN",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/admin/users",
+      "method": "DELETE",
+      "url": "http://example.invalid/v1/admin/users",
+      "status_code": 403,
+      "reason": "SIMULATED FORBIDDEN",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/admin/config",
+      "method": "GET",
+      "url": "http://example.invalid/v1/admin/config",
+      "status_code": 403,
+      "reason": "SIMULATED FORBIDDEN",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/admin/config",
+      "method": "PUT",
+      "url": "http://example.invalid/v1/admin/config",
+      "status_code": 403,
+      "reason": "SIMULATED FORBIDDEN",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/internal/debug/vars",
+      "method": "GET",
+      "url": "http://example.invalid/internal/debug/vars",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/internal/metrics",
+      "method": "GET",
+      "url": "http://example.invalid/internal/metrics",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/backoffice/finance/reports",
+      "method": "GET",
+      "url": "http://example.invalid/backoffice/finance/reports",
+      "status_code": 403,
+      "reason": "SIMULATED FORBIDDEN",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/backoffice/finance/adjust",
+      "method": "POST",
+      "url": "http://example.invalid/backoffice/finance/adjust",
+      "status_code": 403,
+      "reason": "SIMULATED FORBIDDEN",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/search",
+      "method": "GET",
+      "url": "http://example.invalid/v1/search",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/feedback",
+      "method": "POST",
+      "url": "http://example.invalid/v1/feedback",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/attachments/{id}",
+      "method": "GET",
+      "url": "http://example.invalid/v1/attachments/{id}",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/attachments/{id}",
+      "method": "DELETE",
+      "url": "http://example.invalid/v1/attachments/{id}",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/debug/config",
+      "method": "GET",
+      "url": "http://example.invalid/debug/config",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/v1/internal/cache/flush",
+      "method": "POST",
+      "url": "http://example.invalid/v1/internal/cache/flush",
+      "status_code": 404,
+      "reason": "SIMULATED NOT FOUND",
+      "needs_auth": true,
+      "sensitive_in_response": [],
+      "notes": []
+    },
+    {
+      "path": "/public/maps/tiles",
+      "method": "GET",
+      "url": "http://example.invalid/public/maps/tiles",
+      "status_code": 200,
+      "reason": "SIMULATED OK",
+      "needs_auth": false,
+      "sensitive_in_response": [],
+      "notes": []
+    }
+  ],
+  "summary": {
+    "total_tested": 29,
+    "potential_issues": 0,
+    "issues": []
+  }
+}
