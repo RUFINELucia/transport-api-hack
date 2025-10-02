@@ -1,1 +1,27 @@
-
+{
+  "service": "Transport API (fictive)",
+  "version": "1.0",
+  "description": "Spec factice pour tests d'audit. Ne représente aucune API réelle.",
+  "endpoints": [
+    { "path": "/v1/status", "methods": ["GET"] },
+    { "path": "/v1/health", "methods": ["GET"] },
+    { "path": "/v1/public/routes", "methods": ["GET"] },
+    { "path": "/v1/public/schedules", "methods": ["GET"] },
+    { "path": "/v1/tickets/purchase", "methods": ["POST"] },
+    { "path": "/v1/tickets/refund", "methods": ["POST"] },
+    { "path": "/v1/users/login", "methods": ["POST"] },
+    { "path": "/v1/users/me", "methods": ["GET", "PUT"] },
+    { "path": "/v1/admin/users", "methods": ["GET", "POST", "DELETE"] },
+    { "path": "/v1/admin/config", "methods": ["GET", "PUT"] },
+    { "path": "/internal/debug/vars", "methods": ["GET"] },
+    { "path": "/internal/metrics", "methods": ["GET"] },
+    { "path": "/backoffice/finance/reports", "methods": ["GET"] },
+    { "path": "/backoffice/finance/adjust", "methods": ["POST"] },
+    { "path": "/v1/search", "methods": ["GET"] },
+    { "path": "/v1/feedback", "methods": ["POST"] },
+    { "path": "/v1/attachments/{id}", "methods": ["GET", "DELETE"] },
+    { "path": "/debug/config", "methods": ["GET"] },
+    { "path": "/v1/internal/cache/flush", "methods": ["POST"] },
+    { "path": "/public/maps/tiles", "methods": ["GET"] }
+  ]
+}
