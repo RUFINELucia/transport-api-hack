@@ -29,7 +29,7 @@ cd transport-api-hack
 
 2. (Optionnel) Créer un environnement virtuel et installer les dépendances :
 
-3. ```bash
+```bash
 python -m venv .venv
 source .venv/bin/activate   # Linux/macOS
 .\\.venv\\Scripts\\activate # Windows
